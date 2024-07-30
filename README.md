@@ -42,7 +42,7 @@ Mongoose schemas to model the application data
 ## MainSite
 
 - **Location**: `EcomPage/evaranext/evaranextjs`
-- **Tech** : Next, Socket, Redux, Bootstrap
+- **Tech** : React, Socket, Redux, Bootstrap
 - **What you can do here**
     - Sign in, register or reset password (reset link send to email)
     - Browse product from search bar or recommend system (base on user history behavior)
