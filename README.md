@@ -8,26 +8,21 @@ Ecomerce Platform create with React, Socket and MongoDB
 ## Introduction
 An ecommerce platform built with MERN stack, and utilizes third party API's. This ecommerce platform enable three main different flows or implementations:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Buyers browse the store categories, products and brands
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Sellers or Merchants manage their own brand component
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Admins manage and control the entire platform components
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Users can browse through categories, products, and brands tailored for children's fashion.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Admins manage and control the entire platform components
 
 
 ## Tech Stack
 
 - [React](https://react.dev)
-- [Next](https://nextjs.org)
 - [Socket](https://socket.io)
-- [Bootstrap](https://react-bootstrap.github.io)
 
 
 
 ## MainSite
 
-- **Location**: `EcomPage/evaranext/evaranextjs`
-- **Tech** : React, Socket, Redux, Bootstrap
+- **Location**: `KiddoReact`
+- **Tech** : React, Redux 
 - **What you can do here**
     - Sign in, register or reset password (reset link send to email)
     - Search for products using DFS, with detailed filtering based on each criterion.
@@ -47,8 +42,8 @@ An ecommerce platform built with MERN stack, and utilizes third party API's. Thi
     
 ## AdminDashboard
 
-- **Location**: `AdminDashboard/main`
-- **Tech** : React, Redux
+- **Location**: `AdminDashboard`
+- **Tech** : React,, Socket Redux
 - **What you can do here**
     - Sign in admin
     - Manage product (create, update, soft delete)
