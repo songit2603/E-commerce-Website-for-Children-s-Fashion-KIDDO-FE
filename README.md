@@ -4,11 +4,6 @@ Ecomerce Platform create with React, Socket and MongoDB
 
 > This repository contain 2 project: *Shop* and *AdminDashboard*
 
-## Table of Contents
--   [Introduction](#Introduction)
--   [Features](#Features)
--   [MainSite](#MainSite)
--   [AdminDashboard](#AdminDashboard)
 
 ## Introduction
 An ecommerce platform built with MERN stack, and utilizes third party API's. This ecommerce platform enable three main different flows or implementations:
@@ -28,16 +23,6 @@ An ecommerce platform built with MERN stack, and utilizes third party API's. Thi
 - [Bootstrap](https://react-bootstrap.github.io)
 
 
-## Features
-
-- Node provides the backend environment for this application
-- Express middleware is used to handle requests, routes
-Mongoose schemas to model the application data
-- React for displaying UI components
-- Redux to manage application's state
-- Redux Thunk middleware to handle asynchronous redux actions
-- Socket to handle realtime notifies and chats
-- Nodemailer for system to send email
 
 ## MainSite
 
@@ -48,9 +33,8 @@ Mongoose schemas to model the application data
     - Browse product from search bar or recommend system (base on user history behavior)
     - Register to become a seller
     - Manage cart, personal infomation (addresses, name, email)
-    - Place order without login
+    - Order without login
     - Payment through VNPay service (testing environment)
-    - Message the seller (only for logged in users)
 - **Running Tests**
     - Go to project root folder
     ```bash
@@ -85,29 +69,16 @@ Mongoose schemas to model the application data
     - Change shop profile (image, address, income, shop's classifies)
     - Manage entire platform as admin (product visibility, user status, shop, reports, banner, ship cost)
 - **Running Tests**
-    - Go to project root folder
-    ```bash
-    cd ./AdminDashboard/main
-
-    ```
-    - Locate the `.env` file and change `REACT_APP_SERVER_DOMAIN` variable to match with API service's port
-    ```bash
-    // Replace serverPort with API service's port
-    REACT_APP_SERVER_DOMAIN=http://localhost:{serverPort}
-    ```
-    - Run the project
-
-    ```bash
-    npm run start
-    // project with start with url http://localhost:3006
+    - Go to project  Kiddo
+    - Install: yarn install
+    - Start: yarn start
     ```
 - Test data
 
 | Email | Password     | Role                |
 | :-------- | :------- | :------------------ |
-| `shopcloth@gmail.com` | `123@shop` | **Vendor** |
-| `shopgame@gmail.com` | `123@shop` | **Vendor** |
-| `admin@gmail.com` | `123@admin` | **Admin** |
+| `khaikhai123@gmail.com` | `123456` | **User** |
+| `khaikhai331@gmail.com` | `123456` | **Admin** |
 
 
 - Test card for payment
@@ -120,7 +91,3 @@ Mongoose schemas to model the application data
 | **Date** | `07/15` |
 | **OTP Password** | `123456` |
 
-## Authors
-
-- [@VanSanh](https://github.com/VanSanh1810)
-- [@TanPhat](https://github.com/TanPhat21242002)
