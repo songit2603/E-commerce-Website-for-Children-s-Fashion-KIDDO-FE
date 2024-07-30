@@ -9,6 +9,7 @@ Ecomerce Platform create with React, Socket and MongoDB
 An ecommerce platform built with MERN stack, and utilizes third party API's. This ecommerce platform enable three main different flows or implementations:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Users can browse through categories, products, and brands tailored for children's fashion.
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Admins manage and control the entire platform components
 
 
