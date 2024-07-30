@@ -30,46 +30,34 @@ An ecommerce platform built with MERN stack, and utilizes third party API's. Thi
 - **Tech** : React, Socket, Redux, Bootstrap
 - **What you can do here**
     - Sign in, register or reset password (reset link send to email)
-    - Browse product from search bar or recommend system (base on user history behavior)
-    - Register to become a seller
+    - Search for products using DFS, with detailed filtering based on each criterion.
     - Manage cart, personal infomation (addresses, name, email)
+    - Store vouchers for applying discounts.
     - Order without login
     - Payment through VNPay service (testing environment)
 - **Running Tests**
-    - Go to project root folder
-    ```bash
-    cd ./EcomPage/evaranext/evaranextjs
-
-    ```
-    - Locate the `.env.local` file and change `NEXT_PUBLIC_SERVER_DOMAIN` variable to match with API service's port
-    ```bash
-    // Replace serverPort with API service's port
-    NEXT_PUBLIC_SERVER_DOMAIN=http://localhost:{serverPort}
-    ```
-    - Run the project
-
-    ```bash
-    npm run dev
-    // project with start with url http://localhost:3000
-    ```
+    - Go to project KiddoReact
+    - Install: yarn install
+    - Start: yarn start
 - Test data
 
 | Email | Password     | Role                |
 | :-------- | :------- | :------------------------- |
-| `sanhnguyen734@gmail.com` | `123@abc` | **User** |
+| `khaikhai123@gmail.com` | `123456` | **User** |
     
 ## AdminDashboard
 
 - **Location**: `AdminDashboard/main`
-- **Tech** : React, Socket, Redux, Bootstrap
+- **Tech** : React, Redux
 - **What you can do here**
-    - Sign in as seller or admin
-    - Manage shop product (create, update, soft delete)
-    - Manage shop orders (change status, confirm)
-    - Change shop profile (image, address, income, shop's classifies)
-    - Manage entire platform as admin (product visibility, user status, shop, reports, banner, ship cost)
+    - Sign in admin
+    - Manage product (create, update, soft delete)
+    - Manage promotion (create, update, soft delete)
+    - Manage rank (create, update, soft delete)
+    - Manage account (create, update, soft delete)
+    - Statistical table
 - **Running Tests**
-    - Go to project  Kiddo
+    - Go to project  AdminDashboard
     - Install: yarn install
     - Start: yarn start
     ```
@@ -77,7 +65,6 @@ An ecommerce platform built with MERN stack, and utilizes third party API's. Thi
 
 | Email | Password     | Role                |
 | :-------- | :------- | :------------------ |
-| `khaikhai123@gmail.com` | `123456` | **User** |
 | `khaikhai331@gmail.com` | `123456` | **Admin** |
 
 
