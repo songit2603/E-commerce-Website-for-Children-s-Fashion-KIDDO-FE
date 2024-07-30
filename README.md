@@ -1,5 +1,4 @@
 # E-commerce-Website-for-Children-s-Fashion-KIDDO-FE
-![Uploading image.png…]()
 
 Ecomerce Platform create with React, Socket and MongoDB
 
