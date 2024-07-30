@@ -2,7 +2,7 @@
 
 Ecomerce Platform create with React, Socket and MongoDB
 
-> This repository contain 2 project: *Shop* and *AdminDashboard*
+> This repository contain 2 project UI: *Shop* and *AdminDashboard*
 
 
 ## Introduction
@@ -33,6 +33,7 @@ An ecommerce platform built with MERN stack, and utilizes third party API's. Thi
     - Payment through VNPay service (testing environment)
 - **Running Tests**
     - Go to project KiddoReact
+    - In the folder address bar, open Command Prompt.
     - Install: yarn install
     - Start: yarn start
 - Test data
@@ -54,6 +55,7 @@ An ecommerce platform built with MERN stack, and utilizes third party API's. Thi
     - Statistical table
 - **Running Tests**
     - Go to project  AdminDashboard
+    - In the folder address bar, open Command Prompt.
     - Install: yarn install
     - Start: yarn start
     ```
