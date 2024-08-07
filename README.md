@@ -58,7 +58,6 @@ An ecommerce platform built with MERN stack, and utilizes third party API's. Thi
     - In the folder address bar, open Command Prompt.
     - Install: yarn install
     - Start: yarn start
-    ```
 - Test data
 
 | Email | Password     | Role                |
